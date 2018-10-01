@@ -54,7 +54,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         let direction = MKDirections (request: directionRequest)
         direction.calculate {(response, error) in
             guard let directionsResonse = response else{
-                if let error = error{
+                if error != nil{
                     print("Hubo un error")
                 }
                 return
