@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  Practica6-WebServices
 //
-//  Created by Alan Olivares on 26/09/18.
-//  Copyright © 2018 Alan Olivares. All rights reserved.
+//  Created by Yola on 26/09/18.
+//  Copyright © 2018 Yola. All rights reserved.
 //
 
 import UIKit

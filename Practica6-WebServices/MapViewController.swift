@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  Practica6-WebServices
 //
-//  Created by Alan Olivares on 26/09/18.
-//  Copyright © 2018 Alan Olivares. All rights reserved.
+//  Created by Yola on 26/09/18.
+//  Copyright © 2018 Yola. All rights reserved.
 //
 
 import UIKit
@@ -38,8 +38,8 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         //Agregar anotación en el mapa
         title = name
         map.register(MKMarkerAnnotationView.self, forAnnotationViewWithReuseIdentifier: MKMapViewDefaultAnnotationViewReuseIdentifier)
-        //let cordenada = CLLocationCoordinate2D(latitude: 21.220040, longitude: -104.597661)
-        let cordenada = CLLocationCoordinate2D(latitude: lat!, longitude: lng!)
+        let cordenada = CLLocationCoordinate2D(latitude: 21.220040, longitude: -104.597661)
+        //let cordenada = CLLocationCoordinate2D(latitude: lat!, longitude: lng!)
         let anotacion = Anotacion(cordinate: cordenada, title: name!)
         let cordenadaO = CLLocationCoordinate2D(latitude: 20.744478, longitude: -103.378901)
         let anotacionO = Anotacion(cordinate: cordenadaO, title: "Origen")
